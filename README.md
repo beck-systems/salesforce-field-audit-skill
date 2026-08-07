@@ -1,5 +1,7 @@
 # salesforce-field-audit
 
+![Contact Object Field Audit — sample report header](docs/images/readme-hero.png)
+
 A [Claude Code](https://claude.com/claude-code) skill that audits field usage
 on any Salesforce object — which custom fields are actually populated, how
 that's changed recently, and which ones are safe to deprecate.
