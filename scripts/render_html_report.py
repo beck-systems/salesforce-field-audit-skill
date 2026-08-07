@@ -282,13 +282,13 @@ def main():
   var toolbar = document.querySelector('.toolbar');
   var countLine = document.createElement('span');
   countLine.className = 'count-line';
+  toolbar.appendChild(countLine);
   Object.keys(catCounts).sort(function(a,b){{ return catCounts[b]-catCounts[a]; }}).forEach(function(cat){{
     var btn = document.createElement('button');
     btn.className = 'pill'; btn.setAttribute('data-cat', cat);
     btn.textContent = (CHIP_LABEL[cat]||cat) + ' (' + catCounts[cat] + ')';
     toolbar.insertBefore(btn, countLine);
   }});
-  toolbar.appendChild(countLine);
 
   function fmtPct(v){{ if(v===null||v===undefined) return '<span class="dash">—</span>'; return v.toFixed(2) + '%'; }}
 
