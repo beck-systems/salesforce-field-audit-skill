@@ -104,7 +104,7 @@ h2{font-family:Georgia,'Iowan Old Style','Palatino Linotype','Book Antiqua',seri
 .count-line{font-size:12.5px; color:var(--text-faint); margin-left:auto; white-space:nowrap; font-variant-numeric:tabular-nums;}
 .table-scroll{overflow-x:auto; border:1px solid var(--border); border-radius:10px; background:var(--bg-raised); box-shadow:var(--shadow);}
 table{width:100%; border-collapse:collapse; min-width:880px;}
-thead th{position:sticky; top:49px; background:var(--bg-sunken); z-index:3; text-align:left; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-faint); font-weight:600; padding:10px 14px; border-bottom:1px solid var(--border); cursor:pointer; user-select:none; white-space:nowrap;}
+thead th{position:sticky; top:65px; background:var(--bg-sunken); z-index:3; text-align:left; font-size:11.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-faint); font-weight:600; padding:10px 14px; border-bottom:1px solid var(--border); cursor:pointer; user-select:none; white-space:nowrap;}
 thead th:hover{color:var(--text);}
 thead th.num{text-align:right;}
 thead th .arrow{font-size:10px; margin-left:4px; opacity:.5;}
