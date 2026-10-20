@@ -10,6 +10,14 @@ those fields were dead, near-dead, or quietly abandoned**, and that most of
 the dead weight traced back to a handful of decommissioned managed packages
 rather than being spread evenly across the object.
 
+![Contact object field audit report](docs/images/readme-hero.png)
+
+The HTML report from the synthetic Contact example: population stats, which
+managed package left the dead fields behind, and a ledger you can search,
+sort, and filter. Open
+[`examples/sample-report.html`](examples/sample-report.html) for the
+interactive version.
+
 ## What it does
 
 Given a Salesforce object, the skill:
